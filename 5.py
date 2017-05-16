@@ -8,7 +8,7 @@ random.seed()
 n = ['1','','2','','3','','4','','5','','6','','7','','8','','9']
 o = ['+','-','']
 #lists of seen permutations and solutions
-seen = [n]
+seen = [''.join(n)]
 hunnid = []
 
 #8 slots and 3 operators... 3**8 = 6561 possible permutations
